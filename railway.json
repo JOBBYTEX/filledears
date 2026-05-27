@@ -1,0 +1,11 @@
+{
+  "build": {
+    "builder": "nixpacks",
+    "config": {
+      "nixpacks": {
+        "providers": ["nodejs", "mysql"]
+      }
+    }
+  },
+  "start": "node server.js"
+}
